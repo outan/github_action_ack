@@ -35,6 +35,9 @@ env:
   TAG: ${{ github.sha }}
   ACK_CLUSTER_ID: ccb88b3f64a58463a94ac5dbf7783ae68
   ACK_DEPLOYMENT_NAME: nginx-deployment
+  ALIBABACLOUD_ACCESS_KEY_ID: "${{ secrets.ALIBABACLOUD_ACCESS_KEY_ID }}"
+  ALIBABACLOUD_ACCESS_KEY_SECRET: "${{ secrets.ALIBABACLOUD_ACCESS_KEY_SECRET }}"
+
 
   # ACR_EE_REGISTRY: hongkong-registry.cn-hongkong.cr.aliyuncs.com
   # ACR_EE_INSTANCE_ID: cri-pvoephmpsfxohomp
